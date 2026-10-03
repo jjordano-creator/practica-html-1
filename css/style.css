@@ -1,0 +1,206 @@
+```css
+/* =========================
+   CONFIGURACIÓN GENERAL
+   ========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #263238;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   ENCABEZADO
+   ========================= */
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+
+/* ENLACES DEL MENÚ */
+
+header a {
+    color: #2563eb;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   SECCIONES
+   ========================= */
+
+#sobre-mi,
+#proyectos,
+#contacto {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   SOBRE MÍ
+   ========================= */
+
+#sobre-mi {
+    text-align: center;
+}
+
+#sobre-mi img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 4px solid #dbeafe;
+}
+
+#sobre-mi p {
+    margin: 10px auto;
+    max-width: 650px;
+}
+
+strong {
+    color: #2563eb;
+}
+
+
+/* =========================
+   PROYECTOS
+   ========================= */
+
+#proyectos > div {
+    padding: 25px;
+    margin-top: 20px;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+#proyectos ul,
+#proyectos ol {
+    margin: 15px 0 15px 25px;
+}
+
+#proyectos li {
+    margin-bottom: 5px;
+}
+
+#proyectos a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#proyectos a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   FORMULARIO
+   ========================= */
+
+form {
+    margin-top: 20px;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+
+/* =========================
+   BOTÓN
+   ========================= */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+   ========================= */
+
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 50px;
+    color: #64748b;
+    font-size: 0.9rem;
+}
+```
